@@ -1,0 +1,6 @@
+[submodule "libraries/pubsubclient"]
+	path = libraries/pubsubclient
+	url = https://github.com/knolleary/pubsubclient.git
+[submodule "libraries/ArduinoJson"]
+	path = libraries/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson.git
