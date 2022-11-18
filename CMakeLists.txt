@@ -173,6 +173,7 @@ set(includedirs
   variants/${CONFIG_ARDUINO_VARIANT}/
   cores/esp32/
   libraries/MQTT/src
+  libraries/MQTT/src/lwmqtt
   libraries/ArduinoJson/src
   libraries/pubsubclient/src
   libraries/ArduinoOTA/src
