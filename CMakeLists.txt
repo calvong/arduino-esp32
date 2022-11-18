@@ -72,7 +72,7 @@ set(CORE_SRCS
   )
 
 set(LIBRARY_SRCS
-  libraries/ArduinoJson/src/ArduinoJson.cpp
+  libraries/MQTT/src/MQTTClient.cpp
   libraries/pubsubclient/src/PubSubClient.cpp
   libraries/ArduinoOTA/src/ArduinoOTA.cpp
   libraries/AsyncUDP/src/AsyncUDP.cpp
@@ -172,6 +172,7 @@ set(BLE_SRCS
 set(includedirs
   variants/${CONFIG_ARDUINO_VARIANT}/
   cores/esp32/
+  libraries/MQTT/src
   libraries/ArduinoJson/src
   libraries/pubsubclient/src
   libraries/ArduinoOTA/src
