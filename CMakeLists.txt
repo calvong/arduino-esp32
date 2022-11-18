@@ -73,6 +73,10 @@ set(CORE_SRCS
 
 set(LIBRARY_SRCS
   libraries/MQTT/src/MQTTClient.cpp
+  libraries/MQTT/src/lwmqtt/client.c
+  libraries/MQTT/src/lwmqtt/helpers.c
+  libraries/MQTT/src/lwmqtt/packet.c
+  libraries/MQTT/src/lwmqtt/string.c
   libraries/pubsubclient/src/PubSubClient.cpp
   libraries/ArduinoOTA/src/ArduinoOTA.cpp
   libraries/AsyncUDP/src/AsyncUDP.cpp
