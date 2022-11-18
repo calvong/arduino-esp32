@@ -4,3 +4,6 @@
 [submodule "libraries/ArduinoJson"]
 	path = libraries/ArduinoJson
 	url = https://github.com/bblanchon/ArduinoJson.git
+[submodule "libraries/MQTT"]
+	path = libraries/MQTT
+	url = https://github.com/256dpi/arduino-mqtt.git
