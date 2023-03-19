@@ -72,6 +72,8 @@ set(CORE_SRCS
   )
 
 set(LIBRARY_SRCS
+  libraries/FastLED/src/FastLED.cpp
+  libraries/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp
   libraries/MQTT/src/MQTTClient.cpp
   libraries/MQTT/src/lwmqtt/client.c
   libraries/MQTT/src/lwmqtt/helpers.c
@@ -176,6 +178,8 @@ set(BLE_SRCS
 set(includedirs
   variants/${CONFIG_ARDUINO_VARIANT}/
   cores/esp32/
+  libraries/FastLED/src
+  libraries/FastLED/src/platforms/esp/32
   libraries/MQTT/src
   libraries/MQTT/src/lwmqtt
   libraries/ArduinoJson/src
