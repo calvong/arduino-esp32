@@ -73,6 +73,9 @@ set(CORE_SRCS
 
 set(LIBRARY_SRCS
   libraries/FastLED/src/FastLED.cpp
+  libraries/FastLED/src/colorutils.cpp
+  libraries/FastLED/src/colorpalettes.cpp
+  libraries/FastLED/src/hsv2rgb.cpp
   libraries/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp
   libraries/MQTT/src/MQTTClient.cpp
   libraries/MQTT/src/lwmqtt/client.c
